@@ -6,7 +6,7 @@ public class Pessoa {
     double altura;
 
     void apresentar(){
-        System.out.println(" Olá, eu sou " + nome + " tenho " + idade + " anos " + " e " + altura + " m de altura. ");
+        System.out.println(" Olá, eu sou " + nome + " tenho " + idade + " anos " + " e " + altura + " m de altura");
     }
     int calcularIdadeEm(int ano){
         int anoAtual = 2025;

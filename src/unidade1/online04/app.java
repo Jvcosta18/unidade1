@@ -9,7 +9,7 @@ public class app {
 
         for (int i = 0; i < pessoasCadastradas.length; i++) {
             pessoasCadastradas[i] = new Pessoa();
-            System.out.println("--- Cadastro da Pessoa " + (i + 1) + " ---");
+            System.out.println("--- Cadastro da Pessoa. " + (i + 1) + " ---");
 
             System.out.print("Digite o nome: ");
             pessoasCadastradas[i].nome = scanner.nextLine();

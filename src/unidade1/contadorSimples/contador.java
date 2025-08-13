@@ -16,7 +16,7 @@ public class contador {
         return this.valor;
     }
     void exibirEstado() {
-        System.out.println("Contador está em: " + this.valor);
+        System.out.println("Contador está : " + this.valor);
     }
 
 }
