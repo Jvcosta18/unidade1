@@ -29,7 +29,7 @@ public class app {
         contador1.zerar();
         contador1.exibirEstado();
 
-        System.out.println("\n--- Fim da Demonstração. ---");
+        System.out.println("\n--- Fim da Demonstração ---");
     }
 
 }
