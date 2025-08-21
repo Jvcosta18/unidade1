@@ -13,13 +13,13 @@ public class app {
             System.out.println("--- Dados da Pessoa " + (i + 1) + " ---");
 
             System.out.print("Digite o nome: ");
-            pessoa.nome = scanner.nextLine();
+            pessoa.setNome(scanner.nextLine());
 
             System.out.print("Digite o peso da pessoa " + (i + 1) + ": ");
-            pessoa.peso = scanner.nextDouble();
+            pessoa.setPeso(scanner.nextDouble());
 
             System.out.print("Digite a altura da pessoa " + (i + 1) + ": ");
-            pessoa.altura = scanner.nextDouble();
+            pessoa.setAltura(scanner.nextDouble());
             scanner.nextLine();
 
             pessoasCadastradas[i] = pessoa;
@@ -28,7 +28,7 @@ public class app {
         System.out.println("\n--- Exibindo IMCs em Ordem Inversa ---");
         for (int i = pessoasCadastradas.length - 1; i >= 0; i--) {
             Pessoa pessoaAtual = pessoasCadastradas[i];
-            System.out.println("Nome: " + pessoaAtual.nome);
+            System.out.println("Nome: " + pessoaAtual.getNome());
             pessoaAtual.imc();
         }
 
